@@ -1,7 +1,5 @@
 class Medicamento:
-    def __init__(self,nombre,precio):
-        self.nombre = nombre
-        self.precio = precio
+
     def Mostrar(self):
         print(f"Nombre: {self.nombre}; Precio: {self.precio}")
 MedicamentosPila=[]
